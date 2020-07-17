@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts Sankhya</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <link rel="stylesheet" href="./_css/all.css">
+
+    <!-- COMANDO PARA ATUALIZAR A PÁGINA A CADA 3 MINUTOS -- CONTENT="SEGUNDOS" -->
+    <meta http-equiv="refresh" content="180">
+</head>
+<body>
+
+    <div id="corpo_site">
+        
+        <!-- FABRICANTE MIX DE PRODUTO E CLIENTE -->
+        <div class="container_chartjs">
+            <canvas id="fabricante_mixes"></canvas>
+        </div>
+
+
+        <!-- VENDEDOR MIX DE PRODUTO E CLIENTE -->
+        <div class="container_chartjs">
+            <canvas id="vendedor_mixes"></canvas>
+        </div>
+
+
+        <!-- FABRICANTE VALORES DE VENDA -->
+        <div class="container_chartjs">
+            <canvas id="fabricante_vendas"></canvas>
+        </div>
+
+
+        <!-- VENDEDOR VALORES DE VENDA -->
+        <div class="container_chartjs">
+            <canvas id="vendedor_vendas"></canvas>
+        </div>
+
+
+        <!-- JAVASCRIPT CONTENDO A FUNÇÃO PARA PREENCHER OS CANVAS -->
+        <script src="./_js/fetch_valores.js"></script>
+        
+    </div>
+
+</body>
+</html>

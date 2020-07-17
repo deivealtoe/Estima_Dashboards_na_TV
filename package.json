@@ -1,0 +1,19 @@
+{
+  "name": "dashoff_estima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./src/server.js",
+    "devServe": "npx nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "oracledb": "^5.0.0"
+  }
+}
