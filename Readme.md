@@ -17,5 +17,10 @@
    <li>Gráfico de Barras</li>
   </ul>
  </li>
- <li>Consultas SQL salvas em 4 views distintas</li>
+ <li>Consultas SQL salvas em 4 views distintas
+  <ul>
+   <li>Oracle 11g XE</li>
+   <li>Oracle Instant Cliente 12c Basic</li>
+  </ul>
+ </li>
 </ul>
