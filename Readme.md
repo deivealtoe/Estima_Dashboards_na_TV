@@ -19,7 +19,7 @@
  <li>Consultas SQL salvas em 4 views distintas
   <ul>
    <li>Oracle 11g XE</li>
-   <li>Oracle Instant Cliente 12.2 Basic</li>
+   <li>Oracle Instant Client 12.2 Basic</li>
   </ul>
  </li>
 </ul>
